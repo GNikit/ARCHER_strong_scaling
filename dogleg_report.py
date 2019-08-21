@@ -83,7 +83,7 @@ for cpu in CORES:
     cdofs[cpu] = stat(STAT_F)['ContinuousDOF_per_group']['Value']
     AV[cpu], MIN[cpu], MAX[cpu], NODES[cpu], HALOS[cpu] = av_min_max_halos('rad_dogleg_noio', cpu, 5) 
 
-os.chdir('/home/gn/Dropbox/PhD/ANSWERS_seminar2019/2019/figures')
+os.chdir('/home/gn/Dropbox/PhD/ANSWERS_seminar/2019/figures')
 
 #%% [markdown]
 # # LB Time vs CDOF for all cores
